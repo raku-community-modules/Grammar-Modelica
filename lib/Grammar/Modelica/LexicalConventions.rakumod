@@ -1,7 +1,3 @@
-#!perl6
-
-use v6;
-
 unit role Grammar::Modelica::LexicalConventions;
 
 token BASEIDENT {[[<|w><NONDIGIT>[<DIGIT>||<NONDIGIT>]*]<|w>||<Q-IDENT>]}
@@ -99,3 +95,5 @@ token keywords {
 }
 
 token IDENT {<!keywords><BASEIDENT>}
+
+# vim: expandtab shiftwidth=4

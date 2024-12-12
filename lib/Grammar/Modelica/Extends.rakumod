@@ -1,7 +1,3 @@
-#!perl6
-
-use v6;
-
 unit role Grammar::Modelica::Extends;
 
 rule extends_clause {
@@ -11,3 +7,5 @@ rule extends_clause {
 rule constraining_clause {
   'constrainedby' <type_specifier> <class_modification>?
 }
+
+# vim: expandtab shiftwidth=4

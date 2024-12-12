@@ -1,7 +1,3 @@
-#!perl6
-
-use v6;
-
 unit role Grammar::Modelica::Modification;
 
 rule modification {
@@ -49,3 +45,5 @@ rule component_declaration1 {
 rule short_class_definition {
   <class_prefixes> <short_class_specifier>
 }
+
+# vim: expandtab shiftwidth=4

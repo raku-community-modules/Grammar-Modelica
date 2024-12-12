@@ -1,11 +1,7 @@
-#!perl6
-
-use v6;
 use Test;
-use lib '../lib';
+
 use Grammar::Modelica;
 # use Grammar::Tracer;
-
 
 plan 313;
 
@@ -35,3 +31,5 @@ sub MAIN($modelica-dir) {
     }
     @files.race.map({light($_)});
 }
+
+# vim: expandtab shiftwidth=4

@@ -1,7 +1,3 @@
-#!perl6
-
-use v6;
-
 unit role Grammar::Modelica::Expressions;
 
 rule expression {
@@ -131,3 +127,5 @@ token add_operator {'+'|'-'|'.+'|'.-'}
 token mul_operator {'*'|'/'|'.*'|'./'}
 
 token relational_operator {"<"|"<="|">"|">="|"=="|"<>"}
+
+# vim: expandtab shiftwidth=4

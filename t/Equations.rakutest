@@ -1,8 +1,5 @@
-#!perl6
-
-use v6;
 use Test;
-use lib '../lib';
+
 use Grammar::Modelica;
 
 plan 170;
@@ -271,3 +268,5 @@ nok TestConnectClause.parse('connect ( , valid_reference2 )');
 nok TestConnectClause.parse('connect ( valid_reference1  valid_reference2 )');
 nok TestConnectClause.parse('connect ()');
 nok TestConnectClause.parse('connect');
+
+# vim: expandtab shiftwidth=4

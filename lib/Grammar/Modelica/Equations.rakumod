@@ -1,7 +1,3 @@
-#!perl6
-
-use v6;
-
 unit role Grammar::Modelica::Equations;
 
 rule equation_section {
@@ -111,3 +107,5 @@ rule when_statement {
 rule connect_clause {
   'connect' '(' <component_reference> ',' <component_reference> ')'
 }
+
+# vim: expandtab shiftwidth=4

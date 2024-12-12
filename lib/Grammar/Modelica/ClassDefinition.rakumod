@@ -1,7 +1,3 @@
-#!perl6
-
-use v6;
-
 unit role Grammar::Modelica::ClassDefinition;
 
 rule class_definition {
@@ -97,3 +93,5 @@ rule import_clause {
 }
 
 rule import_list { <IDENT> [ ',' <IDENT> ]* }
+
+# vim: expandtab shiftwidth=4

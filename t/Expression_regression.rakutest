@@ -1,8 +1,5 @@
-#!perl6
-
-use v6;
 use Test;
-use lib '../lib';
+
 use Grammar::Modelica;
 
 # Expression: if (asc2 and v<1) then 0.5/t1 else 0
@@ -99,3 +96,5 @@ ok  TestExp.parse('(asc2 and v<1)');
 ok  TestExp.parse('if(asc2 and v<1) then 1 else 0');
 ok  TestExp.parse('if(asc2 and v<1)then 1 else 0');
 ok  TestExp.parse('if (asc2 and v<1)then 1 else 0');
+
+# vim: expandtab shiftwidth=4

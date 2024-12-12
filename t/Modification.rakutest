@@ -1,8 +1,5 @@
-#!perl6
-
-use v6;
 use Test;
-use lib '../lib';
+
 use Grammar::Modelica;
 
 plan 49;
@@ -124,3 +121,5 @@ grammar TestShortClassDefinition is Grammar::Modelica {
 ok TestShortClassDefinition.parse('class_prefixes short_class_specifier');
 nok TestShortClassDefinition.parse('short_class_specifier');
 nok TestShortClassDefinition.parse('class_prefixes');
+
+# vim: expandtab shiftwidth=4

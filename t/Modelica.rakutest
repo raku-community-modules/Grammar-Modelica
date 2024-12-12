@@ -1,8 +1,5 @@
-#!perl6
-
-use v6;
 use Test;
-use lib '../lib';
+
 use Grammar::Modelica;
 
 plan 15;
@@ -35,3 +32,5 @@ ok TestModelica.parse('');
 ok TestModelica.parse('within valid_ident;');
 ok TestModelica.parse('within valid_ident; final class_definition;');
 ok TestModelica.parse('within valid_ident; final class_definition;final class_definition;final class_definition;');
+
+# vim: expandtab shiftwidth=4

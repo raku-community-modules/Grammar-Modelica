@@ -1,8 +1,5 @@
-#!perl6
-
-use v6;
 use Test;
-use lib '../lib';
+
 use Grammar::Modelica;
 
 plan 90; 
@@ -156,3 +153,5 @@ nok TestUnsignedNumber.parse('12.34e +56');
 nok TestUnsignedNumber.parse('12.34e+ 56');
 nok TestUnsignedNumber.parse('12.34e+56 ');
 nok TestUnsignedNumber.parse(' 12.34e+56');
+
+# vim: expandtab shiftwidth=4

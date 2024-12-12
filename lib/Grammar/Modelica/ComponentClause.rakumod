@@ -1,7 +1,3 @@
-#!perl6
-
-use v6;
-
 unit role Grammar::Modelica::ComponentClause;
 
 rule component_clause {
@@ -29,3 +25,5 @@ rule condition_attribute { 'if' <expression> }
 rule declaration {
   <IDENT> <array_subscripts>? <modification>?
 }
+
+# vim: expandtab shiftwidth=4

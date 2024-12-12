@@ -1,8 +1,5 @@
-#!perl6
-
-use v6;
 use Test;
-use lib '../lib';
+
 use Grammar::Modelica;
 
 plan 168;
@@ -366,3 +363,5 @@ ok TestAnnotation.parse('annotation class_modification');
 nok TestAnnotation.parse('annotationclass_modification');
 nok TestAnnotation.parse('annotation');
 nok TestAnnotation.parse('class_modification');
+
+# vim: expandtab shiftwidth=4

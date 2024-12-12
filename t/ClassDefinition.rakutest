@@ -1,8 +1,5 @@
-#!perl6
-
-use v6;
 use Test;
-use lib '../lib';
+
 use Grammar::Modelica;
 
 plan 121;
@@ -227,3 +224,5 @@ nok TestImportClause.parse('importvalid_name.{valid_ident,valid_ident,valid_iden
 nok TestImportClause.parse('import valid_name.valid_ident,valid_ident,valid_ident} "valid comment"');
 nok TestImportClause.parse('import valid_name.{valid_ident,valid_ident,valid_ident "valid comment"');
 nok TestImportClause.parse('import valid_name{valid_ident,valid_ident,valid_ident} "valid comment"');
+
+# vim: expandtab shiftwidth=4

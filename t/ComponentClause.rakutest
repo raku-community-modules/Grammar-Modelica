@@ -1,8 +1,5 @@
-#!perl6
-
-use v6;
 use Test;
-use lib '../lib';
+
 use Grammar::Modelica;
 
 plan 34;
@@ -65,3 +62,5 @@ grammar TestComponentDeclaration is Grammar::Modelica {
 ok TestComponentDeclaration.parse('valid_declaration condition_attribute "valid comment"');
 ok TestComponentDeclaration.parse('valid_declaration "valid comment"');
 ok TestComponentDeclaration.parse('valid_declaration"valid comment"');
+
+# vim: expandtab shiftwidth=4
