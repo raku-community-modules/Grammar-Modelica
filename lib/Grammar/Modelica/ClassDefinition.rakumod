@@ -31,7 +31,7 @@ rule long_class_specifier {
 
 rule short_class_specifier {
   ||  <IDENT> '=' <base_prefix> <type_specifier> <array_subscripts>? <class_modification>? <comment>
-  ||  <IDENT> '=' 'enumeration' '(' [ <enum_list>? || ':' ] ')' <comment>
+  ||  <IDENT> '=' 'enumeration' '(' [ <enum_list> || ':' ]? ')' <comment>
 }
 
 rule der_class_specifier {
