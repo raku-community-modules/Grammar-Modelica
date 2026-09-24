@@ -3,10 +3,12 @@
   "authors": [
     "Steven Albano"
   ],
+  "build-depends": [
+  ],
   "depends": [
   ],
   "description": "A Grammar for the Modelica programming language",
-  "license": "NOASSERTION",
+  "license": "Artistic-2.0",
   "name": "Grammar::Modelica",
   "provides": {
     "Grammar::Modelica": "lib/Grammar/Modelica.rakumod",
@@ -19,6 +21,9 @@
     "Grammar::Modelica::Modification": "lib/Grammar/Modelica/Modification.rakumod"
   },
   "raku": "6.c",
+  "resources": [
+  ],
+  "source-url": "https://github.com/raku-community-modules/Grammar-Modelica.git",
   "support": {
     "bugtracker": "https://github.com/raku-community-modules/Grammar-Modelica/issues",
     "email": "community@raku.org",
@@ -26,5 +31,7 @@
   },
   "tags": [
   ],
-  "version": "0.1.3"
+  "test-depends": [
+  ],
+  "version": "0.1.4"
 }

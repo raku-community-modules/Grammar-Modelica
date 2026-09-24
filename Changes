@@ -1,6 +1,8 @@
 Revision history for Grammar::Modelica
 
 {{$NEXT}}
+
+0.1.4  2026-09-24T13:33:02+02:00
     - Make it future proof, ugexe++
     - Modernize META and documentation
     - Add coverage testing (incomplete)
